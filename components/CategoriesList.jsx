@@ -5,7 +5,7 @@ import Cities from "../public/cities.svg";
 
 export default function CategoriesList() {
   return (
-    <div className='font-[Montserrat] py-[5rem] flex flex-col items-center justify-center md:px-[5%] md:py-[5%] lg:px-[7.5%] lg:py-[7.5%] lg:box-border xl:max-w-full'>
+    <div className='py-[5rem] flex flex-col items-center justify-center md:px-[5%] md:py-[5%] lg:px-[7.5%] lg:py-[7.5%] lg:box-border xl:max-w-full'>
       <div>
         <Image src={Cities} alt='Porkify Categories Listing' />
       </div>
